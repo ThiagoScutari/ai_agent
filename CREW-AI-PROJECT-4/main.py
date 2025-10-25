@@ -8,7 +8,6 @@ load_dotenv()
 # --- Passo 2: Importar Ferramentas ---
 from crewai import Agent, Task, Crew, Process
 from crewai import LLM
-import os
 # --- ADIÇÃO 1: Importar a ferramenta NATIVA do CrewAI ---
 from crewai_tools import SerperDevTool
 
