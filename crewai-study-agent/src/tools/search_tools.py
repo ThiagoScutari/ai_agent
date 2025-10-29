@@ -2,6 +2,7 @@
 
 import os
 from crewai.tools import tool
+
 from crewai_tools import SerperDevTool
 from langchain_community.tools import DuckDuckGoSearchRun
 # Import the actual FirecrawlApp from the library we installed
